@@ -1,0 +1,16 @@
+{
+    "app": "python3 app.py",
+    "context": {
+        "environment": {
+            "AWS_REGION": "us-east-1",
+            "UNPROCESSED_SQS_MESSAGES_FOLDER": "unprocessed_sqs_messages",
+            "PROCESSED_SQS_MESSAGES_FOLDER": "processed_and_safe_to_delete",
+
+            "REDSHIFT_USER": "admin",
+            "REDSHIFT_PASSWORD": "Password1",
+            "REDSHIFT_DATABASE_NAME": "redshift_database",
+            "REDSHIFT_SCHEMA_NAME": "web_scraping_schema",
+            "REDSHIFT_TABLE_NAME": "web_scraping_table"
+        }
+    }
+}
